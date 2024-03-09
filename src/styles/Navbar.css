@@ -1,0 +1,22 @@
+/* Navbar.css */
+
+.horizontal-navbar {
+  background-color: #090707;
+  color: #fff;
+  padding: 20px 40px; /* Increased padding for top and bottom */
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  height: 80px; /* Increased height */
+}
+
+.horizontal-navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px; /* Add margin to separate links */
+  padding: 12px ;
+}
+
+
+.horizontal-navbar a:hover {
+  background-color: #555;
+}

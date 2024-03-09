@@ -1,0 +1,70 @@
+
+.item {
+    flex: 0 0 calc(33.33% - 20px); /* Each item takes up one third of the page with some margin */
+    margin: 10px; /* Margin between items */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: #f9f9f9; /* Example background color */
+    border: 1px solid #ccc; /* Example border */
+    padding: 20px;
+}
+
+.item-header {
+    display: flex; /* Display idx and title next to each other */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 10px; /* Add margin below the header */
+    color: black;
+}
+
+.idx {
+    margin-right: 10px; /* Add space between idx and title */
+}
+
+.item-title {
+    font-weight: bold; /* Make idx bold */
+    margin-right: 10px; /* Add space between idx and title */
+}
+  
+.item img {
+    width: 100%; /* Make sure the image takes up the full width of its container */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Margin below the image */
+}
+
+.item-text {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: black;
+}
+  
+.shop-link {
+    margin-top: 10px; /* Margin above the shop link */
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    /* text-align: left; */
+    text-decoration: none;
+    border-radius: 25px; 
+  }
+
+.shop-link-container {
+    text-align: left; /* Align the button to the left */
+}
+  
+/* Media query for responsiveness */
+@media (max-width: 1024px) {
+    .item {
+      flex: 0 0 calc(50% - 20px); /* Each item takes up half of the page on screens smaller than 1024px */
+    }
+}
+  
+@media (max-width: 600px) {
+    .item {
+      flex: 0 0 calc(100% - 20px); /* Each item takes up full width on screens smaller than 600px */
+    }
+}
+  

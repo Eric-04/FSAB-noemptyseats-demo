@@ -1,0 +1,16 @@
+.title {
+    padding: 200px;
+    text-align: center;
+    background-color: lightgray; /* Add background color */
+    color: black; /* make text color black */
+  }
+  
+  .huge-text {
+    font-size: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .smaller-text {
+    font-size: 18px;
+  }
