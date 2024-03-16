@@ -1,11 +1,11 @@
 /* Navbar.css */
 
 .horizontal-navbar {
-  background-color: #170b4e;
+  background-color: #081c44;
   color: #fff;
-  padding: 20px 40px; /* Increased padding for top and bottom */
+  padding: 30px 70px; /* Increased padding for top and bottom */
   display: flex;
-  height: 80px; /* Increased height */
+  height: 100px; /* Increased height */
 }
 
 .navbar-text {

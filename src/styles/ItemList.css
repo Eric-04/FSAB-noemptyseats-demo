@@ -3,4 +3,5 @@
     flex-wrap: wrap;
     justify-content: space-between; /* Items are spaced evenly along the main axis */
     background-color: white;
+    padding: 50px 10px;
   }
