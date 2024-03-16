@@ -1,13 +1,13 @@
 
 .item {
-    flex: 0 0 calc(33.33% - 20px); /* Each item takes up one third of the page with some margin */
-    margin: 10px; /* Margin between items */
+    flex: 0 0 calc(33.33% - 60px); /* Each item takes up one third of the page with some margin */
+    margin: 30px; /* Margin between items */
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     background-color: #f9f9f9; /* Example background color */
     border: 1px solid #ccc; /* Example border */
-    padding: 20px;
+    padding: 40px;
 }
 
 .item-header {
@@ -44,8 +44,8 @@
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    background-color: black;
-    color: white;
+    background-color: rgb(166, 97, 185);
+    color: rgb(255, 255, 255);
     /* text-align: left; */
     text-decoration: none;
     border-radius: 25px; 

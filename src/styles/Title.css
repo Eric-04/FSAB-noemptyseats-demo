@@ -3,6 +3,10 @@
     text-align: center;
     background-color: lightgray; /* Add background color */
     color: black; /* make text color black */
+    background-image: url('../images/title_background_img.png');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
   }
   
   .huge-text {
